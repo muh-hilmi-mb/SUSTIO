@@ -39,9 +39,9 @@ data_tpa <- data.frame(
 )
 
 data_umkm <- data.frame(
-  nama = c("KERAJINAN GEGABAH DI KASONGAN", "SENTRA KERAJINAN WAYANG DUSUN PUCUNG", "SENTRA BAMBU DESA MUNTUK", "SENTRA KERAJINAN DESA WUKIRSARI", "DESA KREBET"),
-  produk = c("ROTAN, BATOK KELAPA, BAMBU, KAYU", "AKSESORIS", "CENDERA MATA, ALAT MASAK, PERABOTAN RUMAH TANGGA", "KERANJANG KUE, ALAT RUMAH TANGGA DARI ROTAN", "BATIK KAYU"),
-  kontak = c("X", "X", "X", "X", "X")
+  nama = c("DESA WISATA GERABAH KASONGAN", "SENTRA KERAJINAN WAYANG DUSUN PUCUNG", "SENTRA BAMBU DESA MUNTUK", "SENTRA KERAJINAN DESA WUKIRSARI"),
+  produk = c("ROTAN, BATOK KELAPA, BAMBU, KAYU", "AKSESORIS", "CENDERA MATA, ALAT MASAK, PERABOTAN RUMAH TANGGA", "KERANJANG KUE, ALAT RUMAH TANGGA DARI ROTAN"),
+  alamat = c("Jl. Kasongan No.3, Kajen, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184", "Pucung, Planjan, Kec. Saptosari, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta 55871", "Karang Asem, Muntuk, Kec. Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55783", "Dusun Giriloyo, Desa Wukirsari RT.02 / RW.20, Imogiri, Karang Kulon, Wukirsari, Kec. Imogiri, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55782")
 )
 
 user_base <- data.frame(
@@ -298,7 +298,7 @@ server <- function(input, output, session) {
       ),
       rownames = FALSE,
       class = "compact stripe hover",
-      colnames = c("Nama UMKM", "Produk", "Kontak")
+      colnames = c("Nama UMKM", "Produk", "Alamat")
     )
   })
 }
