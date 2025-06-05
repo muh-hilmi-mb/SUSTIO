@@ -96,8 +96,3 @@ shiny::runApp("app.R")
 * Serina
 
 ---
-
-## 💡 Lisensi
-
-Hak Cipta © 2025 Kelompok 9 FEB UGM
-Lisensi terbuka untuk penggunaan edukatif dan non-komersial.
